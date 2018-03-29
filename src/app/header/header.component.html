@@ -1,0 +1,48 @@
+<header>
+  <div class="headerLeft">
+    <div class="logo"></div>
+    <div class="title">武汉铁路智能安检系统-中心平台</div>
+  </div>
+  <div class="headerRight">
+    <div class="nav">
+      <ul class="navBar">
+        <li class="navBtn">
+          <span> 系统设置</span>
+        </li>
+        <li class="navBtn">
+							<span>
+                       实时监控
+                    </span>
+
+        </li>
+        <li class="navBtn">
+							<span>
+                       报警处置
+                    </span>
+
+        </li>
+        <li class="navBtn navBtnActive">
+							<span>
+                       数据分析
+                    </span>
+
+        </li>
+
+      </ul>
+    </div>
+    <div class="user">
+      <i></i>
+      <span>用户名</span>
+    </div>
+    <div class="out">
+      <i></i>
+      <span>退出</span>
+    </div>
+  </div>
+  <ul class="nav-tab">
+    <li *ngFor=" let menu of menus" [class.nav-tab-active]="currentMenuId == menu.id"><a href="javascript:" (click)="nav(menu)">{{menu.name}}</a></li>
+
+  </ul>
+  <div class="bg-left"></div>
+
+</header>

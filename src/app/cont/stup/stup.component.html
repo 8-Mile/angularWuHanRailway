@@ -1,0 +1,27 @@
+<div class="content roleManage" id="mainWrap">
+  <ul class="clearfix" id="itemWrap">
+    <li class="marginDiv" ata-index="0" class="" *ngFor="let stupList of stupLists;let i =index">
+      <div class="contentDiv">
+        <div class="hoverDiv">
+          <ul>
+            <li><span class="eidtIcon"></span></li>
+            <li><span class="deleteIcon"></span></li>
+          </ul>
+        </div>
+        <div class="bodyDiv">
+          <div class="titleHead"><h5>{{stupList.name}}<br/><small><label>创建时间：</label>{{stupList.time}}</small></h5></div>
+          <div class="bodyText">
+            <div class="grey"><label>系统管理：</label><span>用户管理、角色管理、用户管理</span></div>
+            <div class="grey"><label>实时监控：</label><span>入口实时监控、出口实时监控、寄存实时监控</span></div>
+            <div class="grey"><label>报警处置：</label><span>未处置事件、已处置事件</span></div>
+            <div class="grey"><label>数据分析：</label><span></span></div>
+          </div>
+        </div>
+      </div>
+    </li>
+
+  </ul>
+</div>
+
+
+

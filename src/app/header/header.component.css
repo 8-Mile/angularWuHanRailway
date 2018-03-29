@@ -1,0 +1,142 @@
+header{
+  width:100%;
+  height:1.14rem;
+  background: url("/assets/images/bg-top.png") no-repeat;
+  background-size: 100%;
+  position: relative;
+}
+.bg-left{
+  width: 0.36rem;
+  height: 2.91rem;
+  background: url(/assets/images/bg-top-left.png);
+  background-size: 100%;
+  position: absolute;
+  left: 0px;
+  top: 1.14rem;
+}
+header .headerLeft{
+  float: left;
+}
+header .headerLeft .logo {
+  display: inline-block;
+  margin-left: 0.3rem;
+  margin-top: 0.3rem;
+  width: 0.95rem;
+  height: 0.4rem;
+  line-height: 100%;
+  background: url(/assets/images/logo.png) no-repeat -2px 2px;
+  background-size: 100%;
+}
+header .headerLeft .title {
+  display: inline-block;
+  padding-left: 10px;
+  vertical-align: 0.1rem;
+  width: 3.04rem;
+  height: 100%;
+  font-size: 0.2rem;
+  color: #ffffff;
+}
+header .headerRight {
+  float: right;
+  margin-right: 20px;
+  height: 100%;
+  font-size: 0.14rem;
+  color: #ffffff;
+}
+header .headerRight .nav {
+  float: left;
+  margin-right: 30px;
+  height: 100%;
+  position: relative;
+  top: 0.07rem;
+}
+header .headerRight .nav .navBar {
+  height: 100%;
+}
+header .headerRight .nav .navBar .navBtn {
+  float: left;
+  width: 1.24rem;
+  height: 100%;
+  background: none;
+  cursor: pointer;
+  background: url(/assets/images/nav-bor.png) no-repeat;
+  background-size: 100%;
+  margin-right: 20px;
+}
+header .headerRight .nav .navBar .navBtnActive ,header .headerRight .nav .navBar .navBtn:hover{
+  float: left;
+  width:  1.24rem;
+  height: 100%;
+  background: none;
+  cursor: pointer;
+  background: url(/assets/images/nav-active.png) no-repeat;
+  background-size: 100%;
+}
+header .headerRight .nav .navBar .navBtn span {
+  display: block;
+  height: 100%;
+  line-height:0.5rem;
+  text-align: center;
+}
+header .headerRight .user ,header .headerRight .out{
+  float: left;
+  margin-top: 0.2rem;
+  margin-right: 40px;
+  color: #61bdf8;
+}
+header .headerRight .user i ,header .headerRight .out i{
+  display: inline-block;
+  width: 22px;
+  height: 25px;
+  background: url(/assets/images/user.png) no-repeat;
+}
+header .headerRight .user i{
+  background-position:  -2px 0px;
+}
+header .headerRight .out i{
+  background-position:  -33px 0px;
+}
+header .headerRight .user span ,header .headerRight .out span{
+  vertical-align: 7px;
+  font-size: 14px;
+  cursor: pointer;
+}
+.nav-tab{
+  position: absolute;
+  top: .75rem;
+  left: 5rem;
+}
+.nav-tab li{
+  float: left;
+  color: #36a5f2;
+  width: 1.15rem;
+  height: 0.42rem;
+  background: url("/assets/images/nav-tab.png");
+  background-size: 100%;
+  text-align: center;
+  line-height:0.42rem;
+  margin-right: 0.2rem;
+  font-size: 0.14rem;
+  cursor: pointer;
+}
+.nav-tab li a{
+  color: #36a5f2;
+}
+.nav-tab li a:hover{
+  color: #fff;
+}
+.nav-tab li:hover{
+  background: url("/assets/images/nav-tabactive.png") no-repeat;
+  background-size: 100%;
+  color: #fff;
+
+}
+.nav-tab .nav-tab-active{
+  background: url("/assets/images/nav-tabactive.png") no-repeat;
+  background-size: 100%;
+  color: #fff;
+
+}
+.nav-tab .nav-tab-active a{
+  color: #fff;
+}
